@@ -10,7 +10,12 @@ var databaseRef = database.ref('/');
 databaseRef.once('value').then(function(snapshot){
 
     const databaseValues = snapshot.val();
-
+    console.log(databaseValues);
     console.log(databaseValues["Facts"][0]["Fact"]);
-    $("#info").append(databaseValues["Facts"][0]["Fact"]);
+    for(var i=0; i<databaseValues["Facts"].length;i++){
+        console.log("hi");
+        //$("#info").append(databaseValues["Facts"][i]["Fact"]);
+        $("#info").append("<div class='post'> <div id='user'> " + databaseValues["Users"][i]["Name"] + " </div> <div id='content'> " + databaseValues["Facts"][i]["Fact"] + " <div> </div>")
+    }
+    
 });
