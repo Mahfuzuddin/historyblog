@@ -18,4 +18,12 @@ databaseRef.once('value').then(function(snapshot){
         $("#info").append("<div class='post'> <div id='user'> " + databaseValues["Users"][i]["Name"] + " </div> <div id='content'> " + databaseValues["Facts"][i]["Fact"] + " <div> </div>")
     }
     
+
 });
+
+$( "#submit" ).click(function() {
+    var input = $("#input").val();
+    var name = $("#name").val();
+    $("#info").append("<div class='post'> "+input)+"</div>";
+
+  });

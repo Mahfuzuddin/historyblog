@@ -11,3 +11,25 @@
     justify-content: center;
     
 }
+
+#addition{
+    display: flex;
+    justify-content: center;
+
+}
+
+#input{
+
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#name{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
