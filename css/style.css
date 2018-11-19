@@ -1,0 +1,13 @@
+/* Write your CSS here */
+#heading{
+    color:red;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.post{
+    display: flex;
+    justify-content: center;
+    
+}
