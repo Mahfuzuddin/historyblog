@@ -12,6 +12,10 @@
     
 }
 
+#box{
+    text-align: center;
+}
+
 #addition{
     display: flex;
     justify-content: center;
@@ -20,16 +24,17 @@
 
 #input{
 
-    padding: 100px;
     display: flex;
     justify-content: center;
+    padding: 100px;
+    text-align: center;
 
 }
 
-#name{
-    padding: 100px;
+#userName{
     display: flex;
     justify-content: center;
+    padding: 10px;
 
 }
 
