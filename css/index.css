@@ -12,29 +12,54 @@
     
 }
 
+/* Center Field */
+#centerbox{
+    text-align: center;
+    width: 500px;
+    left: 30%;
+    position: absolute;
+}
+
 #box{
-    text-align: center;
-}
-
-#addition{
-    display: flex;
-    justify-content: center;
-
-}
-
-#input{
-
-    display: flex;
-    justify-content: center;
-    padding: 100px;
-    text-align: center;
-
+    padding: 20px;
 }
 
 #userName{
+    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding: 10px;
 
 }
 
+#name{
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;;
+}
+
+
+#addition{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: left;
+
+}
+
+#input{
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;;
+    max-height: 200px;
+
+}
+
+#submit{
+    float: Right;
+}
+
+#info{
+    padding: 10px;
+    margin-top: 10px;
+}
