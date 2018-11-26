@@ -31,12 +31,14 @@
 
 #centerbox{
     text-align: center;
-    width: 500px;
+    width: 50%;
     left: 30%;
     position: absolute;
 }
 
 #box{
+
+    width: 100%;
     padding: 20px;
 }
 
