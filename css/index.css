@@ -13,6 +13,22 @@
 }
 
 /* Center Field */
+
+.title{
+    
+    position: relative;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+
+}
+
+.inputs{
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;;
+}
+
 #centerbox{
     text-align: center;
     width: 500px;
@@ -30,6 +46,18 @@
     justify-content: left;
     padding: 10px;
 
+}
+
+#email{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+#email1{
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 #name{
@@ -62,4 +90,20 @@
 #info{
     padding: 10px;
     margin-top: 10px;
+}
+
+/* Appended Posts */
+
+.post{
+/* Holds user and content*/
+}
+
+.user{
+padding: 10px;
+float:right;
+position:relative;
+}
+
+.content{
+
 }
