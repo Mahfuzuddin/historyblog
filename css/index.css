@@ -24,6 +24,7 @@
 }
 
 .inputs{
+    border: 2px solid;
     position: relative;
     max-width: 100%;
     min-width: 100%;;
@@ -97,11 +98,14 @@
 /* Appended Posts */
 
 .post{
+    widows: 100%;
+    height: 50px;
+    border: 2px solid;
 /* Holds user and content*/
 }
 
 .user{
-padding: 10px;
+padding: 2px;
 float:right;
 position:relative;
 }

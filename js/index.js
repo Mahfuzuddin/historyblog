@@ -45,7 +45,7 @@ $( "#submit" ).click(function() {
                 "Name": name,
             });
         } else {
-            $("#box").append("Please fill all fields");
+            $("#empty").html("Please fill all fields");
  
         }
     })
