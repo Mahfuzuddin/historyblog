@@ -50,6 +50,6 @@ $( "#submit" ).click(function() {
         }
     })
 
-    $("#info").append("<div class='post'> <div class='user'> "+ name +" </div> <div class='content'>  "+input+" </div> </div>");
+    $("#info").append("<div class='post'> <div class='user-input'> <div class='user'> "+ name +" </div> <div class='period'> "+ period +" </div> </div> <br> <div class='content'>  "+input+" </div> </div>");
 
   });

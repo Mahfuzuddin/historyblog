@@ -1,15 +1,40 @@
 /* Write your CSS here */
+body {
+    animation: colorchange 10s; /* animation-name followed by duration in seconds*/
+       /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange 10s; /* Chrome and Safari */
+  }
+
+  @keyframes colorchange
+  {
+    0%   {background: rgb(179, 104, 104);}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: rgb(189, 86, 86);}
+  }
+
+  @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+  {
+    0%   {background: rgb(179, 104, 104);}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: rgb(189, 86, 86);}
+  }
+
 #heading{
+    transition:all .2s ease-in-out;
+    widows: 100%;
     color:red;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     font-style: italic;
 }
 
-.post{
-    display: flex;
-    justify-content: center;
-    
+#heading:hover{
+    transform: scale(1.5);
 }
 
 /* Center Field */
@@ -30,17 +55,22 @@
     min-width: 100%;;
 }
 
+textarea{
+    border:2px solid;
+}
+
 #centerbox{
-    text-align: center;
-    width: 50%;
-    left: 30%;
+    margin:auto;
+    width:50%;
+    padding: 10px;
+    left:25%;
     position: absolute;
 }
 
 #box{
 
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 #userName{
@@ -98,18 +128,40 @@
 /* Appended Posts */
 
 .post{
-    widows: 100%;
+    background-color: white;
+    transition:all .2s ease-in-out;
+    width: 100%;
     height: 50px;
     border: 2px solid;
 /* Holds user and content*/
 }
 
+.post:hover{
+    transform: scale(1.5);
+}
+
+.user-input{
+    padding:2px;
+}
+
+.period{
+float:
+}
+
 .user{
-padding: 2px;
-float:right;
+padding-right: 10px;
+padding-top: 3px;
+padding-left: 5px;
+padding-bottom: 2px;
+float:left;
 position:relative;
 }
 
 .content{
-
+padding-bottom:3px;
+font-weight:900;
+width:100%;
+text-align:center;
+position:relative;
+float:right;
 }
