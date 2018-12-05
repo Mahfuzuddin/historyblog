@@ -17,7 +17,7 @@ databaseRef.once('value').then(function(snapshot){
 
         console.log("hi");
         //$("#info").append(databaseValues["Facts"][i]["Fact"]);
-        $("#info").append("<div class='post'> <div class='user'> " + databaseValues["Facts"][key]["Name"] + " </div> <div class='content'> " + databaseValues["Facts"][key]["Fact"] + " <div> </div>")
+        $("#info").append("<div class='post'>  <div class='user-input'>  <div class='user'> " + databaseValues["Facts"][key]["Name"] + "</div>  <div class='period'> "+ databaseValues["Facts"][key]["Time Period"] +" </div> </div> <br> <div class='content'> " + databaseValues["Facts"][key]["Fact"] + " <div> </div>")
     }
     
     

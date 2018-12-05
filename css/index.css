@@ -141,10 +141,13 @@ textarea{
 }
 
 .user-input{
+    width:100%;
     padding:2px;
 }
 
 .period{
+padding-right:5px;
+position:relative;
 float: right;
 }
 
