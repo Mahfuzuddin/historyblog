@@ -1,27 +1,4 @@
 /* Write your CSS here */
-body {
-    animation: colorchange 10s infinite; /* animation-name followed by duration in seconds*/
-       /* you could also use milliseconds (ms) or something like 2.5s */
-    -webkit-animation: colorchange 10s; /* Chrome and Safari */
-  }
-
-  @keyframes colorchange
-  {
-    0%   {background: rgb(179, 104, 104);}
-    25%  {background: yellow;}
-    50%  {background: blue;}
-    75%  {background: green;}
-    100% {background: rgb(189, 86, 86);}
-  }
-
-  @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
-  {
-    0%   {background: rgb(179, 104, 104);}
-    25%  {background: yellow;}
-    50%  {background: blue;}
-    75%  {background: green;}
-    100% {background: rgb(189, 86, 86);}
-  }
 
 #heading{
     transition:all .2s ease-in-out;
@@ -171,5 +148,14 @@ float:right;
     text-align: center;
     color:red;
     font-size:100px;
-    font-family: Impact;
+    font-family: Chalkduster, fantasy;
+}
+.aboutp{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.gif{
+    text-align: center;
 }
