@@ -1,5 +1,7 @@
 /* Write your CSS here */
-
+body{
+    background-color:#e9d66b;
+}
 #heading{
     transition:all .2s ease-in-out;
     widows: 100%;
@@ -158,4 +160,8 @@ float:right;
 
 .gif{
     text-align: center;
+}
+
+#aboutpage{
+    background-color: #e9d66b
 }
